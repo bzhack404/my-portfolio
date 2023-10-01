@@ -1,7 +1,7 @@
 "use client"
 import Image from 'next/image'
 import { BsFillMoonStarsFill } from 'react-icons/bs';
-import { AiFillLinkedin, AiFillTwitterCircle, AiFillYoutube } from 'react-icons/ai';
+import { AiFillLinkedin, AiFillTwitterCircle, AiFillInstagram } from 'react-icons/ai';
 import deved from '../public/ajai.jpg'
 import jsimg from '../public/Picture2.png'
 import nodeimg from '../public/Picture3.png'
@@ -38,7 +38,7 @@ export default function Home() {
           <div className='text-5xl flex justify-center gap-16 py-5 text-gray-600 '>
             <AiFillLinkedin className='shadow-lg hover:text-teal-600' />
             <AiFillTwitterCircle className='shadow-lg hover:text-teal-600' />
-            <AiFillYoutube className='shadow-lg hover:text-teal-600' />
+            <AiFillInstagram className='shadow-lg hover:text-teal-600' />
           </div>
           <div className=' overflow-hidden relative mx-auto w-60 h-60 mt-10 border-solid border-2 border-sky-500 rounded-full'>
             <Image src={deved} alt={''} className='rounded-full shadow-xl hover:scale-105 ' objectFit='cover' />
