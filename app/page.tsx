@@ -8,6 +8,9 @@ import nodeimg from '../public/Picture3.png'
 import reimg from '../public/Picture1.png'
 import { title } from 'process';
 import { useState } from 'react'
+var scl10="https://srividyamandirapm.com/"
+var scl12="https://srividyamandirapm.com/"
+var clg="https://ksrce.ac.in/"
 export default function Home() {
   const [darkMood, setDarkmood] = useState(false);
   return (
@@ -70,24 +73,28 @@ export default function Home() {
                   <div className='dot'></div>
                   <div className='pl-10'>
                     <span className='timeline-date dark:text-white'>2018/8/23</span>
-                    <h3 className='timeline-title dark:text-teal-600'>Event-1</h3>
+                    <h3 className='timeline-title dark:text-teal-600'>SRI VIDYA MANDIR - 10TH</h3>
                     <p className='text-gray-500'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia molestiae dolorem placeat iste voluptas deleniti quas laudantium velit sapiente earum esse ad expedita, magnam doloribus vel repellendus ipsa. Sint, eveniet!</p>
+                    <a href={scl10} className='text-teal-500 animate-pulse'>ReadMore..</a>
                   </div>
                 </div>
                 <div className='relative'>
                   <div className='dot'></div>
                   <div className='pl-10'>
                     <span className='timeline-date dark:text-white'>2018/8/23</span>
-                    <h3 className='timeline-title dark:text-teal-600'>Event-1</h3>
+                    <h3 className='timeline-title dark:text-teal-600'>SRI VIDYA MANDIR - 12TH</h3>
                     <p className='text-gray-500'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia molestiae dolorem placeat iste voluptas deleniti quas laudantium velit sapiente earum esse ad expedita, magnam doloribus vel repellendus ipsa. Sint, eveniet!</p>
+                    <a href={scl12} className='text-teal-500 animate-pulse'>ReadMore..</a>
+
                   </div>
                 </div>
                 <div className='relative'>
                   <div className='dot animate-ping'></div>
                   <div className='pl-10'>
                     <span className='timeline-date dark:text-white'>2018/8/23</span>
-                    <h3 className='timeline-title dark:text-teal-600'>Event-1</h3>
+                    <h3 className='timeline-title dark:text-teal-600'>K.S.R. COLLEGE OF ENGINEERING</h3>
                     <p className='text-gray-500'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia molestiae dolorem placeat iste voluptas deleniti quas laudantium velit sapiente earum esse ad expedita, magnam doloribus vel repellendus ipsa. Sint, eveniet!</p>
+                    <a href={clg} className='text-teal-500 animate-pulse'>ReadMore..</a>
                   </div>
                 </div>
               </div>
