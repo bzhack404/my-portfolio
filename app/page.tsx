@@ -78,10 +78,10 @@ export default function Home() {
            {isVisible && <div className='w-100 h-80 bg-teal-500 rounded-xl shadow-md'>
               <h1 className='group-date text-white'>PROJECT`S</h1>
               <div className='flex gap-5 justify-center items-center'>
-                {data.map(data=>(
+                {data.map((data,index)=>(
                   <div className='w-[25vw] h-40 bg-white rounded-md text-left px-5 py-2 shadow-md shadow-white hover:scale-[1.03]'>
-                  <h1 className='font-bold'>Project</h1>
-                  <p className='timeline-date'>{data.title}</p>
+                  <h1 className='font-bold' key={index}>Project</h1>
+                  <p className='timeline-date' key={index}>{data.title}</p>
                   <p>{data.detail}</p>
                 </div>
                 ))}
