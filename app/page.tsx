@@ -16,14 +16,14 @@ var clg = "https://ksrce.ac.in/"
 export default function Home() {
   const [darkMood, setDarkmood] = useState(false);
   const [isVisible, setIsVisible] = useState(false);
-  function project(name:string) {
+  function project(name: string) {
     setIsVisible(!isVisible);
-    if(name==='js'){
-      data=Project['js']
-    }else if(name==='node'){
-      data=Project['node']
-    }else{
-      data=Project['react']
+    if (name === 'js') {
+      data = Project['js']
+    } else if (name === 'node') {
+      data = Project['node']
+    } else {
+      data = Project['react']
     }
     console.log(data)
   }
@@ -75,15 +75,15 @@ export default function Home() {
                 <p className='text-2xl leading-3 font-bold'>React Js</p>
               </div>
             </div>
-           {isVisible && <div className='w-100 h-80 bg-teal-500 rounded-xl shadow-md'>
+            {isVisible && <div className='w-100 h-80 bg-teal-500 rounded-xl shadow-md'>
               <h1 className='group-date text-white'>PROJECT`S</h1>
               <div className='flex gap-5 justify-center items-center'>
-                {data.map((data,index)=>(
-                  <div className='w-[25vw] h-40 bg-white rounded-md text-left px-5 py-2 shadow-md shadow-white hover:scale-[1.03]'>
-                  <h1 className='font-bold' key={index}>Project</h1>
-                  <p className='timeline-date' key={index}>{data.title}</p>
-                  <p>{data.detail}</p>
-                </div>
+                {data.map((dataItem, index) => (
+                  <div className='w-[25vw] h-40 bg-white rounded-md text-left px-5 py-2 shadow-md shadow-white hover:scale-[1.03]' key={index}>
+                    <h1 className='font-bold'>Project</h1>
+                    <p className='timeline-date'>{dataItem.title}</p>
+                    <p>{dataItem.detail}</p>
+                  </div>
                 ))}
               </div>
             </div>}
