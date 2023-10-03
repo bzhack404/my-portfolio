@@ -1,0 +1,32 @@
+{
+    "node": [
+        {
+            "title": "STUDENT MANAGEMENT",
+            "detail": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia molestiae dolorem placeat iste voluptas deleniti quas laudantium velit sapiente earum esse"
+        },
+        {
+            "title": "DIGITAL LIBRARY",
+            "detail": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia molestiae dolorem placeat iste voluptas deleniti quas laudantium velit sapiente earum esse"
+        }
+    ],
+    "js": [
+        {
+            "title": "LOGIN PAGE",
+            "detail": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia molestiae dolorem placeat iste voluptas deleniti quas laudantium velit sapiente earum esse"
+        },
+        {
+            "title": "SEARCH ENGINE",
+            "detail": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia molestiae dolorem placeat iste voluptas deleniti quas laudantium velit sapiente earum esse"
+        }
+    ],
+    "react": [
+        {
+            "title": "PLACEMENT PORTAL",
+            "detail": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia molestiae dolorem placeat iste voluptas deleniti quas laudantium velit sapiente earum esse"
+        },
+        {
+            "title": "ANIME STREMING",
+            "detail": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia molestiae dolorem placeat iste voluptas deleniti quas laudantium velit sapiente earum esse"
+        }
+    ]
+}
