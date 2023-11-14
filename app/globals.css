@@ -4,7 +4,7 @@
 
 @font-face {
     font-family: "burtons";
-    src: url('');
+    src: url('/path-to-your-font-file/font.woff2') format('woff2');
 }
 *{
     box-sizing: border-box;
